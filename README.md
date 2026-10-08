@@ -13,17 +13,6 @@ Each module is a small, runnable prototype of the system proposed in the project
 | 4 | Fake job posting detection | NLP: TF-IDF + Logistic Regression + red-flag explanations | `04_fake_job_detection/` |
 | 5 | Community disease-outbreak early warning | Time-series baseline + anomaly detection | `05_outbreak_warning/` |
 
-## Setup
-
-```bash
-git clone https://github.com/<your-username>/ai-ml-real-world.git
-cd ai-ml-real-world
-python -m venv .venv
-source .venv/bin/activate        # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-pip install -r requirements-dl.txt   # only for module 1 (and optional U-Net in module 3)
-```
-
 ## Run each project
 
 Modules 2–5 run immediately on built-in synthetic data:
