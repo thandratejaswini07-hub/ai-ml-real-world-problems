@@ -1,0 +1,3 @@
+# Only needed for 01_crop_disease and 03_deforestation/unet_model.py
+tensorflow>=2.13
+pillow>=10.0
