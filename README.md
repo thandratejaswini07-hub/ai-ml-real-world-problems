@@ -13,19 +13,6 @@ Each module is a small, runnable prototype of the system proposed in the project
 | 4 | Fake job posting detection | NLP: TF-IDF + Logistic Regression + red-flag explanations | `04_fake_job_detection/` |
 | 5 | Community disease-outbreak early warning | Time-series baseline + anomaly detection | `05_outbreak_warning/` |
 
-## Run each project
-
-Modules 2–5 run immediately on built-in synthetic data:
-
-```bash
-cd 02_fraud_detection      && python fraud_detection.py
-cd 03_deforestation        && python deforestation.py
-cd 04_fake_job_detection   && python fake_job_detector.py
-cd 05_outbreak_warning     && python outbreak_warning.py
-```
-
-Results (models, CSV alerts, plots) are written to `outputs/`.
-
 **Module 1 needs a dataset** — download [PlantVillage](https://www.kaggle.com/datasets/emmarex/plantdisease)
 and place it as `data/plantvillage/<class_name>/*.jpg`, then:
 
